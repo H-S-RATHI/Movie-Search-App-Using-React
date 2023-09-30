@@ -20,7 +20,7 @@ function MovieCard({ allMovieData, loading }) {
                 </div>
             ) : (
                 // Add a placeholder or message when allMovieData is empty or not an array
-                <div>No movie data available.</div>
+                <div></div>
             )}
         </div>
     );
